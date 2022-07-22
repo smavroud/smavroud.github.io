@@ -1,0 +1,124 @@
+﻿
+#style-switcher h3.demo {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #CCCCCC;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold !important;
+    margin-bottom: 12px;
+    text-align: center;
+    text-transform:none;
+    line-height: 3px;
+}
+#style-switcher {
+    -moz-box-sizing: border-box;
+    background: none repeat scroll 0 0 #111111;
+    border-radius: 0 2px 2px 0;
+    box-shadow: 0 0 3px #666666;
+    font-family: Arial,sans-serif;
+    height: 275px;
+    left: 0;
+    padding: 10px 10px;
+    position: fixed;
+    text-align: left;
+    top: 35%;
+    width: 150px;
+    z-index: 9999;
+}
+#style-switcher p {
+    color: #CCCCCC;
+    font-size: 11px;
+    line-height: 1.6em !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#toggle-button {
+    background: url("config-icon.png") no-repeat scroll 60% 8px #111111;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    height: 40px;
+    position: absolute;
+    right: -70px;
+    top: 30px;
+    width: 70px;
+    z-index: 9998;
+}
+ul.color-list, ul#bg-list{
+    margin:0;
+    padding: 0;
+}
+ul.color-list li, ul#bg-list li#no-bg, li#full-bg {
+    font-size: 11px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 100%;
+    list-style:none;
+    line-height:1;
+}
+li#full-bg {
+    margin-bottom: 10px !important;
+}
+ul.color-list li a, li#full-bg a {
+    -moz-box-sizing: border-box;
+    border: 2px solid #333333;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    display: block;
+    padding: 3px 0;
+    text-decoration: none;
+    width: 100%;
+}
+ul#bg-list li {
+    display: inline-block;
+    margin: 2px;
+}
+ul#bg-list li img {
+    height: 22px;
+    width: 22px;
+}
+ul#bg-list li a {
+    -moz-box-sizing: border-box;
+    border: 2px solid #333333;
+    border-radius: 3px 3px 3px 3px;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+}
+ul#bg-list li#no-bg a {
+    border: 0 none;
+    color: #CCCCCC !important;
+    line-height: 1;
+    text-decoration: underline;
+}
+ul#bg-list li#full-bg a {
+    border-color: #888888;
+}
+ul.color-list li a:hover, ul#bg-list li a:hover {
+    border-color: #CCCCCC !important;
+}
+ul.color-list li a#default {
+    background: none repeat scroll 0 0 #E74F3F;
+}
+ul.color-list li a#blue_white {
+    background: none repeat scroll 0 0 #5688f9;
+}
+ul.color-list li a#orange_white {
+    background: none repeat scroll 0 0 #f3ad49;
+}
+ul.color-list li a#blue_black {
+    background: none repeat scroll 0 0 #5688f9;
+}
+ul.color-list li a#orange_black {
+    background: none repeat scroll 0 0 #f3ad49;
+}
+#style-switcher p.note {
+    color: #333333;
+    font-size: 11px;
+    line-height: 1.6em !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+select {
+    color: #333333;
+    padding: 5px;
+}
